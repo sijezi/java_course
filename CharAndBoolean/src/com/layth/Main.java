@@ -3,6 +3,14 @@ package com.layth;
 public class Main {
 
     public static void main(String[] args) {
+        // byte
+        // short
+        // int
+        // long
+        // float
+        // double
+        // char
+        // boolean
 	    // width of 16 ( 2 bytes)
         char myChar = '\u00A9';
         System.out.println("Unicode Character " + myChar);
