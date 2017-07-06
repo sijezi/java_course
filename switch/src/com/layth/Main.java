@@ -32,6 +32,10 @@ public class Main {
             default:
                 System.out.println("Value was not 1 or 2");
         }
+
+        for (int i = 0; i < 9; i++) {
+            System.out.println(" 10,000 at " + i + "% =" + calculateInterest(10000.0, i));
+        }
     }
 
     public static void switchTest() {
@@ -50,5 +54,9 @@ public class Main {
                 System.out.println("Could not find A, B, C, D, or E");
                 break;
         }
+    }
+
+    public static double calculateInterest(double amount, double interestRate) {
+        return (amount * (interestRate/100));
     }
 }
